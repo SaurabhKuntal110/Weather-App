@@ -5,9 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <div class="container">
+        <div class="weatherInput">
+            <div class="inputGrp">
+                <input type="text" placeholder="Enter Location" id="userLocation">
+                <select class="tempUnit" id="tempUnit">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+                <i class="fa-solid fa-search"></i>
+            </div>
+            <div class="weatherIcon"></div>
+            <h2 class="temperature"></h2>
+            <div class="feelslike"></div>
+            <div class="description"></div>
+            <hr />
+            <div class="date"></div>
+            <div class="city"></div>    
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.weatherInput{
+    width: 25%;
+    position: fixed;
+    inset: 0;
+    background: #9672FB;
+    padding: 1rem;
+}
+.inputGrp{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.inputGrp input{
+    background: #fff;
+    text-transform: capitalize;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.inputGrp .tempUnit{
+    position: absolute;
+    right: 3.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.inputGrp .fa-search{
+    position: absolute;
+    right: 1rem;
+    color: black;
+    cursor: pointer;
+    font-size: 2rem;
+}
