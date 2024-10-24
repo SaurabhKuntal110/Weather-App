@@ -48,3 +48,38 @@ body{
     cursor: pointer;
     font-size: 2rem;
 }
+.weatherOutput{
+    margin-left: 25%;
+    width: 75%;
+    position: absolute;
+    inset: 0;
+    padding: 2rem;
+    background-color: #EBE8F0;
+    overflow: auto;
+}
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(3,20rem);
+    grid-auto-flow: row;
+    row-gap: 2rem;
+    column-gap: 3.5rem;
+    padding-top: 1rem;
+}
+.highlights div{
+    height: 15rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    background: #9672FB;
+}
+.highlights i{
+    font-size: 3rem;
+}
+.sun span{
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+}
